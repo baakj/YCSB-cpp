@@ -1,0 +1,12 @@
+i=$1
+until=$2
+
+while :
+do
+sudo /home/jaewan/zone_reset $i
+i=$((i + 1))
+if [ $i -eq $until ]; then
+echo "$i"
+break
+fi
+done
