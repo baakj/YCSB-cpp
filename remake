@@ -1,5 +1,3 @@
 sudo make clean
-sudo make BIND_ROCKSDB=1 EXTRA_CXXFLAGS=-I/home/jaewan/EZC/rocksdb/include \
-                    EXTRA_LDFLAGS="-L/home/jaewan/YCSB-cpp/build  -ldl -lsnappy -lgflags -ldl -lz -u zenfs_filesystem_reg -lzbd -lzstd -laio -luring -llz4 -lbz2 -DUSE_MERGEUPDATE"
-
-
+sudo make BIND_ROCKSDB=1 EXTRA_CXXFLAGS=-I/home/jaewan/연구/EZC/rocksdb/include \
+                    EXTRA_LDFLAGS="-L/home/jaewan/연구/YCSB-cpp/build  -ldl -lsnappy -lgflags -ldl -lz -u zenfs_filesystem_reg -lzbd -lzstd -laio -luring -llz4 -lbz2 -DUSE_MERGEUPDATE"

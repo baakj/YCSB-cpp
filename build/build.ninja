@@ -800,7 +800,7 @@ build cmake_object_order_depends_target_hdr_histogram: phony || HdrHistogram_c/s
 build HdrHistogram_c/src/CMakeFiles/hdr_histogram.dir/hdr_encoding.c.o: C_COMPILER__hdr_histogram_Release /home/micron/YCSB-cpp/HdrHistogram_c/src/hdr_encoding.c || cmake_object_order_depends_target_hdr_histogram
   DEFINES = -D_GNU_SOURCE -Dhdr_histogram_EXPORTS
   DEP_FILE = HdrHistogram_c/src/CMakeFiles/hdr_histogram.dir/hdr_encoding.c.o.d
-  FLAGS = -O3 -DNDEBUG -fPIC -Wall -Wno-unknown-pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
+  FLAGS = -O3 -DNDEBUG -fPIC -Wall -Wno--pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
   INCLUDES = -I/home/micron/YCSB-cpp/HdrHistogram_c/include
   OBJECT_DIR = HdrHistogram_c/src/CMakeFiles/hdr_histogram.dir
   OBJECT_FILE_DIR = HdrHistogram_c/src/CMakeFiles/hdr_histogram.dir
@@ -808,7 +808,7 @@ build HdrHistogram_c/src/CMakeFiles/hdr_histogram.dir/hdr_encoding.c.o: C_COMPIL
 build HdrHistogram_c/src/CMakeFiles/hdr_histogram.dir/hdr_histogram.c.o: C_COMPILER__hdr_histogram_Release /home/micron/YCSB-cpp/HdrHistogram_c/src/hdr_histogram.c || cmake_object_order_depends_target_hdr_histogram
   DEFINES = -D_GNU_SOURCE -Dhdr_histogram_EXPORTS
   DEP_FILE = HdrHistogram_c/src/CMakeFiles/hdr_histogram.dir/hdr_histogram.c.o.d
-  FLAGS = -O3 -DNDEBUG -fPIC -Wall -Wno-unknown-pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
+  FLAGS = -O3 -DNDEBUG -fPIC -Wall -Wno--pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
   INCLUDES = -I/home/micron/YCSB-cpp/HdrHistogram_c/include
   OBJECT_DIR = HdrHistogram_c/src/CMakeFiles/hdr_histogram.dir
   OBJECT_FILE_DIR = HdrHistogram_c/src/CMakeFiles/hdr_histogram.dir
@@ -816,7 +816,7 @@ build HdrHistogram_c/src/CMakeFiles/hdr_histogram.dir/hdr_histogram.c.o: C_COMPI
 build HdrHistogram_c/src/CMakeFiles/hdr_histogram.dir/hdr_histogram_log.c.o: C_COMPILER__hdr_histogram_Release /home/micron/YCSB-cpp/HdrHistogram_c/src/hdr_histogram_log.c || cmake_object_order_depends_target_hdr_histogram
   DEFINES = -D_GNU_SOURCE -Dhdr_histogram_EXPORTS
   DEP_FILE = HdrHistogram_c/src/CMakeFiles/hdr_histogram.dir/hdr_histogram_log.c.o.d
-  FLAGS = -O3 -DNDEBUG -fPIC -Wall -Wno-unknown-pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
+  FLAGS = -O3 -DNDEBUG -fPIC -Wall -Wno--pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
   INCLUDES = -I/home/micron/YCSB-cpp/HdrHistogram_c/include
   OBJECT_DIR = HdrHistogram_c/src/CMakeFiles/hdr_histogram.dir
   OBJECT_FILE_DIR = HdrHistogram_c/src/CMakeFiles/hdr_histogram.dir
@@ -824,7 +824,7 @@ build HdrHistogram_c/src/CMakeFiles/hdr_histogram.dir/hdr_histogram_log.c.o: C_C
 build HdrHistogram_c/src/CMakeFiles/hdr_histogram.dir/hdr_interval_recorder.c.o: C_COMPILER__hdr_histogram_Release /home/micron/YCSB-cpp/HdrHistogram_c/src/hdr_interval_recorder.c || cmake_object_order_depends_target_hdr_histogram
   DEFINES = -D_GNU_SOURCE -Dhdr_histogram_EXPORTS
   DEP_FILE = HdrHistogram_c/src/CMakeFiles/hdr_histogram.dir/hdr_interval_recorder.c.o.d
-  FLAGS = -O3 -DNDEBUG -fPIC -Wall -Wno-unknown-pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
+  FLAGS = -O3 -DNDEBUG -fPIC -Wall -Wno--pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
   INCLUDES = -I/home/micron/YCSB-cpp/HdrHistogram_c/include
   OBJECT_DIR = HdrHistogram_c/src/CMakeFiles/hdr_histogram.dir
   OBJECT_FILE_DIR = HdrHistogram_c/src/CMakeFiles/hdr_histogram.dir
@@ -832,7 +832,7 @@ build HdrHistogram_c/src/CMakeFiles/hdr_histogram.dir/hdr_interval_recorder.c.o:
 build HdrHistogram_c/src/CMakeFiles/hdr_histogram.dir/hdr_thread.c.o: C_COMPILER__hdr_histogram_Release /home/micron/YCSB-cpp/HdrHistogram_c/src/hdr_thread.c || cmake_object_order_depends_target_hdr_histogram
   DEFINES = -D_GNU_SOURCE -Dhdr_histogram_EXPORTS
   DEP_FILE = HdrHistogram_c/src/CMakeFiles/hdr_histogram.dir/hdr_thread.c.o.d
-  FLAGS = -O3 -DNDEBUG -fPIC -Wall -Wno-unknown-pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
+  FLAGS = -O3 -DNDEBUG -fPIC -Wall -Wno--pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
   INCLUDES = -I/home/micron/YCSB-cpp/HdrHistogram_c/include
   OBJECT_DIR = HdrHistogram_c/src/CMakeFiles/hdr_histogram.dir
   OBJECT_FILE_DIR = HdrHistogram_c/src/CMakeFiles/hdr_histogram.dir
@@ -840,7 +840,7 @@ build HdrHistogram_c/src/CMakeFiles/hdr_histogram.dir/hdr_thread.c.o: C_COMPILER
 build HdrHistogram_c/src/CMakeFiles/hdr_histogram.dir/hdr_time.c.o: C_COMPILER__hdr_histogram_Release /home/micron/YCSB-cpp/HdrHistogram_c/src/hdr_time.c || cmake_object_order_depends_target_hdr_histogram
   DEFINES = -D_GNU_SOURCE -Dhdr_histogram_EXPORTS
   DEP_FILE = HdrHistogram_c/src/CMakeFiles/hdr_histogram.dir/hdr_time.c.o.d
-  FLAGS = -O3 -DNDEBUG -fPIC -Wall -Wno-unknown-pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
+  FLAGS = -O3 -DNDEBUG -fPIC -Wall -Wno--pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
   INCLUDES = -I/home/micron/YCSB-cpp/HdrHistogram_c/include
   OBJECT_DIR = HdrHistogram_c/src/CMakeFiles/hdr_histogram.dir
   OBJECT_FILE_DIR = HdrHistogram_c/src/CMakeFiles/hdr_histogram.dir
@@ -848,7 +848,7 @@ build HdrHistogram_c/src/CMakeFiles/hdr_histogram.dir/hdr_time.c.o: C_COMPILER__
 build HdrHistogram_c/src/CMakeFiles/hdr_histogram.dir/hdr_writer_reader_phaser.c.o: C_COMPILER__hdr_histogram_Release /home/micron/YCSB-cpp/HdrHistogram_c/src/hdr_writer_reader_phaser.c || cmake_object_order_depends_target_hdr_histogram
   DEFINES = -D_GNU_SOURCE -Dhdr_histogram_EXPORTS
   DEP_FILE = HdrHistogram_c/src/CMakeFiles/hdr_histogram.dir/hdr_writer_reader_phaser.c.o.d
-  FLAGS = -O3 -DNDEBUG -fPIC -Wall -Wno-unknown-pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
+  FLAGS = -O3 -DNDEBUG -fPIC -Wall -Wno--pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
   INCLUDES = -I/home/micron/YCSB-cpp/HdrHistogram_c/include
   OBJECT_DIR = HdrHistogram_c/src/CMakeFiles/hdr_histogram.dir
   OBJECT_FILE_DIR = HdrHistogram_c/src/CMakeFiles/hdr_histogram.dir
@@ -891,7 +891,7 @@ build cmake_object_order_depends_target_hdr_histogram_static: phony || HdrHistog
 build HdrHistogram_c/src/CMakeFiles/hdr_histogram_static.dir/hdr_encoding.c.o: C_COMPILER__hdr_histogram_static_Release /home/micron/YCSB-cpp/HdrHistogram_c/src/hdr_encoding.c || cmake_object_order_depends_target_hdr_histogram_static
   DEFINES = -D_GNU_SOURCE
   DEP_FILE = HdrHistogram_c/src/CMakeFiles/hdr_histogram_static.dir/hdr_encoding.c.o.d
-  FLAGS = -O3 -DNDEBUG -Wall -Wno-unknown-pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
+  FLAGS = -O3 -DNDEBUG -Wall -Wno--pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
   INCLUDES = -I/home/micron/YCSB-cpp/HdrHistogram_c/include
   OBJECT_DIR = HdrHistogram_c/src/CMakeFiles/hdr_histogram_static.dir
   OBJECT_FILE_DIR = HdrHistogram_c/src/CMakeFiles/hdr_histogram_static.dir
@@ -899,7 +899,7 @@ build HdrHistogram_c/src/CMakeFiles/hdr_histogram_static.dir/hdr_encoding.c.o: C
 build HdrHistogram_c/src/CMakeFiles/hdr_histogram_static.dir/hdr_histogram.c.o: C_COMPILER__hdr_histogram_static_Release /home/micron/YCSB-cpp/HdrHistogram_c/src/hdr_histogram.c || cmake_object_order_depends_target_hdr_histogram_static
   DEFINES = -D_GNU_SOURCE
   DEP_FILE = HdrHistogram_c/src/CMakeFiles/hdr_histogram_static.dir/hdr_histogram.c.o.d
-  FLAGS = -O3 -DNDEBUG -Wall -Wno-unknown-pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
+  FLAGS = -O3 -DNDEBUG -Wall -Wno--pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
   INCLUDES = -I/home/micron/YCSB-cpp/HdrHistogram_c/include
   OBJECT_DIR = HdrHistogram_c/src/CMakeFiles/hdr_histogram_static.dir
   OBJECT_FILE_DIR = HdrHistogram_c/src/CMakeFiles/hdr_histogram_static.dir
@@ -907,7 +907,7 @@ build HdrHistogram_c/src/CMakeFiles/hdr_histogram_static.dir/hdr_histogram.c.o: 
 build HdrHistogram_c/src/CMakeFiles/hdr_histogram_static.dir/hdr_histogram_log.c.o: C_COMPILER__hdr_histogram_static_Release /home/micron/YCSB-cpp/HdrHistogram_c/src/hdr_histogram_log.c || cmake_object_order_depends_target_hdr_histogram_static
   DEFINES = -D_GNU_SOURCE
   DEP_FILE = HdrHistogram_c/src/CMakeFiles/hdr_histogram_static.dir/hdr_histogram_log.c.o.d
-  FLAGS = -O3 -DNDEBUG -Wall -Wno-unknown-pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
+  FLAGS = -O3 -DNDEBUG -Wall -Wno--pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
   INCLUDES = -I/home/micron/YCSB-cpp/HdrHistogram_c/include
   OBJECT_DIR = HdrHistogram_c/src/CMakeFiles/hdr_histogram_static.dir
   OBJECT_FILE_DIR = HdrHistogram_c/src/CMakeFiles/hdr_histogram_static.dir
@@ -915,7 +915,7 @@ build HdrHistogram_c/src/CMakeFiles/hdr_histogram_static.dir/hdr_histogram_log.c
 build HdrHistogram_c/src/CMakeFiles/hdr_histogram_static.dir/hdr_interval_recorder.c.o: C_COMPILER__hdr_histogram_static_Release /home/micron/YCSB-cpp/HdrHistogram_c/src/hdr_interval_recorder.c || cmake_object_order_depends_target_hdr_histogram_static
   DEFINES = -D_GNU_SOURCE
   DEP_FILE = HdrHistogram_c/src/CMakeFiles/hdr_histogram_static.dir/hdr_interval_recorder.c.o.d
-  FLAGS = -O3 -DNDEBUG -Wall -Wno-unknown-pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
+  FLAGS = -O3 -DNDEBUG -Wall -Wno--pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
   INCLUDES = -I/home/micron/YCSB-cpp/HdrHistogram_c/include
   OBJECT_DIR = HdrHistogram_c/src/CMakeFiles/hdr_histogram_static.dir
   OBJECT_FILE_DIR = HdrHistogram_c/src/CMakeFiles/hdr_histogram_static.dir
@@ -923,7 +923,7 @@ build HdrHistogram_c/src/CMakeFiles/hdr_histogram_static.dir/hdr_interval_record
 build HdrHistogram_c/src/CMakeFiles/hdr_histogram_static.dir/hdr_thread.c.o: C_COMPILER__hdr_histogram_static_Release /home/micron/YCSB-cpp/HdrHistogram_c/src/hdr_thread.c || cmake_object_order_depends_target_hdr_histogram_static
   DEFINES = -D_GNU_SOURCE
   DEP_FILE = HdrHistogram_c/src/CMakeFiles/hdr_histogram_static.dir/hdr_thread.c.o.d
-  FLAGS = -O3 -DNDEBUG -Wall -Wno-unknown-pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
+  FLAGS = -O3 -DNDEBUG -Wall -Wno--pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
   INCLUDES = -I/home/micron/YCSB-cpp/HdrHistogram_c/include
   OBJECT_DIR = HdrHistogram_c/src/CMakeFiles/hdr_histogram_static.dir
   OBJECT_FILE_DIR = HdrHistogram_c/src/CMakeFiles/hdr_histogram_static.dir
@@ -931,7 +931,7 @@ build HdrHistogram_c/src/CMakeFiles/hdr_histogram_static.dir/hdr_thread.c.o: C_C
 build HdrHistogram_c/src/CMakeFiles/hdr_histogram_static.dir/hdr_time.c.o: C_COMPILER__hdr_histogram_static_Release /home/micron/YCSB-cpp/HdrHistogram_c/src/hdr_time.c || cmake_object_order_depends_target_hdr_histogram_static
   DEFINES = -D_GNU_SOURCE
   DEP_FILE = HdrHistogram_c/src/CMakeFiles/hdr_histogram_static.dir/hdr_time.c.o.d
-  FLAGS = -O3 -DNDEBUG -Wall -Wno-unknown-pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
+  FLAGS = -O3 -DNDEBUG -Wall -Wno--pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
   INCLUDES = -I/home/micron/YCSB-cpp/HdrHistogram_c/include
   OBJECT_DIR = HdrHistogram_c/src/CMakeFiles/hdr_histogram_static.dir
   OBJECT_FILE_DIR = HdrHistogram_c/src/CMakeFiles/hdr_histogram_static.dir
@@ -939,7 +939,7 @@ build HdrHistogram_c/src/CMakeFiles/hdr_histogram_static.dir/hdr_time.c.o: C_COM
 build HdrHistogram_c/src/CMakeFiles/hdr_histogram_static.dir/hdr_writer_reader_phaser.c.o: C_COMPILER__hdr_histogram_static_Release /home/micron/YCSB-cpp/HdrHistogram_c/src/hdr_writer_reader_phaser.c || cmake_object_order_depends_target_hdr_histogram_static
   DEFINES = -D_GNU_SOURCE
   DEP_FILE = HdrHistogram_c/src/CMakeFiles/hdr_histogram_static.dir/hdr_writer_reader_phaser.c.o.d
-  FLAGS = -O3 -DNDEBUG -Wall -Wno-unknown-pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
+  FLAGS = -O3 -DNDEBUG -Wall -Wno--pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
   INCLUDES = -I/home/micron/YCSB-cpp/HdrHistogram_c/include
   OBJECT_DIR = HdrHistogram_c/src/CMakeFiles/hdr_histogram_static.dir
   OBJECT_FILE_DIR = HdrHistogram_c/src/CMakeFiles/hdr_histogram_static.dir
@@ -1066,7 +1066,7 @@ build cmake_object_order_depends_target_hdr_histogram_test: phony || cmake_objec
 build HdrHistogram_c/test/CMakeFiles/hdr_histogram_test.dir/hdr_histogram_test.c.o: C_COMPILER__hdr_histogram_test_Release /home/micron/YCSB-cpp/HdrHistogram_c/test/hdr_histogram_test.c || cmake_object_order_depends_target_hdr_histogram_test
   DEFINES = -D_GNU_SOURCE
   DEP_FILE = HdrHistogram_c/test/CMakeFiles/hdr_histogram_test.dir/hdr_histogram_test.c.o.d
-  FLAGS = -O3 -DNDEBUG -Wall -Wno-unknown-pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
+  FLAGS = -O3 -DNDEBUG -Wall -Wno--pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
   INCLUDES = -I/home/micron/YCSB-cpp/HdrHistogram_c/src -I/home/micron/YCSB-cpp/HdrHistogram_c/include
   OBJECT_DIR = HdrHistogram_c/test/CMakeFiles/hdr_histogram_test.dir
   OBJECT_FILE_DIR = HdrHistogram_c/test/CMakeFiles/hdr_histogram_test.dir
@@ -1074,7 +1074,7 @@ build HdrHistogram_c/test/CMakeFiles/hdr_histogram_test.dir/hdr_histogram_test.c
 build HdrHistogram_c/test/CMakeFiles/hdr_histogram_test.dir/minunit.c.o: C_COMPILER__hdr_histogram_test_Release /home/micron/YCSB-cpp/HdrHistogram_c/test/minunit.c || cmake_object_order_depends_target_hdr_histogram_test
   DEFINES = -D_GNU_SOURCE
   DEP_FILE = HdrHistogram_c/test/CMakeFiles/hdr_histogram_test.dir/minunit.c.o.d
-  FLAGS = -O3 -DNDEBUG -Wall -Wno-unknown-pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
+  FLAGS = -O3 -DNDEBUG -Wall -Wno--pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
   INCLUDES = -I/home/micron/YCSB-cpp/HdrHistogram_c/src -I/home/micron/YCSB-cpp/HdrHistogram_c/include
   OBJECT_DIR = HdrHistogram_c/test/CMakeFiles/hdr_histogram_test.dir
   OBJECT_FILE_DIR = HdrHistogram_c/test/CMakeFiles/hdr_histogram_test.dir
@@ -1108,7 +1108,7 @@ build cmake_object_order_depends_target_hdr_histogram_atomic_test: phony || cmak
 build HdrHistogram_c/test/CMakeFiles/hdr_histogram_atomic_test.dir/hdr_histogram_atomic_test.c.o: C_COMPILER__hdr_histogram_atomic_test_Release /home/micron/YCSB-cpp/HdrHistogram_c/test/hdr_histogram_atomic_test.c || cmake_object_order_depends_target_hdr_histogram_atomic_test
   DEFINES = -D_GNU_SOURCE
   DEP_FILE = HdrHistogram_c/test/CMakeFiles/hdr_histogram_atomic_test.dir/hdr_histogram_atomic_test.c.o.d
-  FLAGS = -O3 -DNDEBUG -Wall -Wno-unknown-pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
+  FLAGS = -O3 -DNDEBUG -Wall -Wno--pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
   INCLUDES = -I/home/micron/YCSB-cpp/HdrHistogram_c/src -I/home/micron/YCSB-cpp/HdrHistogram_c/include
   OBJECT_DIR = HdrHistogram_c/test/CMakeFiles/hdr_histogram_atomic_test.dir
   OBJECT_FILE_DIR = HdrHistogram_c/test/CMakeFiles/hdr_histogram_atomic_test.dir
@@ -1116,7 +1116,7 @@ build HdrHistogram_c/test/CMakeFiles/hdr_histogram_atomic_test.dir/hdr_histogram
 build HdrHistogram_c/test/CMakeFiles/hdr_histogram_atomic_test.dir/minunit.c.o: C_COMPILER__hdr_histogram_atomic_test_Release /home/micron/YCSB-cpp/HdrHistogram_c/test/minunit.c || cmake_object_order_depends_target_hdr_histogram_atomic_test
   DEFINES = -D_GNU_SOURCE
   DEP_FILE = HdrHistogram_c/test/CMakeFiles/hdr_histogram_atomic_test.dir/minunit.c.o.d
-  FLAGS = -O3 -DNDEBUG -Wall -Wno-unknown-pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
+  FLAGS = -O3 -DNDEBUG -Wall -Wno--pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
   INCLUDES = -I/home/micron/YCSB-cpp/HdrHistogram_c/src -I/home/micron/YCSB-cpp/HdrHistogram_c/include
   OBJECT_DIR = HdrHistogram_c/test/CMakeFiles/hdr_histogram_atomic_test.dir
   OBJECT_FILE_DIR = HdrHistogram_c/test/CMakeFiles/hdr_histogram_atomic_test.dir
@@ -1150,7 +1150,7 @@ build cmake_object_order_depends_target_hdr_histogram_log_test: phony || cmake_o
 build HdrHistogram_c/test/CMakeFiles/hdr_histogram_log_test.dir/hdr_histogram_log_test.c.o: C_COMPILER__hdr_histogram_log_test_Release /home/micron/YCSB-cpp/HdrHistogram_c/test/hdr_histogram_log_test.c || cmake_object_order_depends_target_hdr_histogram_log_test
   DEFINES = -D_GNU_SOURCE
   DEP_FILE = HdrHistogram_c/test/CMakeFiles/hdr_histogram_log_test.dir/hdr_histogram_log_test.c.o.d
-  FLAGS = -O3 -DNDEBUG -Wall -Wno-unknown-pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
+  FLAGS = -O3 -DNDEBUG -Wall -Wno--pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
   INCLUDES = -I/home/micron/YCSB-cpp/HdrHistogram_c/src -I/home/micron/YCSB-cpp/HdrHistogram_c/include
   OBJECT_DIR = HdrHistogram_c/test/CMakeFiles/hdr_histogram_log_test.dir
   OBJECT_FILE_DIR = HdrHistogram_c/test/CMakeFiles/hdr_histogram_log_test.dir
@@ -1158,7 +1158,7 @@ build HdrHistogram_c/test/CMakeFiles/hdr_histogram_log_test.dir/hdr_histogram_lo
 build HdrHistogram_c/test/CMakeFiles/hdr_histogram_log_test.dir/minunit.c.o: C_COMPILER__hdr_histogram_log_test_Release /home/micron/YCSB-cpp/HdrHistogram_c/test/minunit.c || cmake_object_order_depends_target_hdr_histogram_log_test
   DEFINES = -D_GNU_SOURCE
   DEP_FILE = HdrHistogram_c/test/CMakeFiles/hdr_histogram_log_test.dir/minunit.c.o.d
-  FLAGS = -O3 -DNDEBUG -Wall -Wno-unknown-pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
+  FLAGS = -O3 -DNDEBUG -Wall -Wno--pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
   INCLUDES = -I/home/micron/YCSB-cpp/HdrHistogram_c/src -I/home/micron/YCSB-cpp/HdrHistogram_c/include
   OBJECT_DIR = HdrHistogram_c/test/CMakeFiles/hdr_histogram_log_test.dir
   OBJECT_FILE_DIR = HdrHistogram_c/test/CMakeFiles/hdr_histogram_log_test.dir
@@ -1192,7 +1192,7 @@ build cmake_object_order_depends_target_hdr_atomic_test: phony || cmake_object_o
 build HdrHistogram_c/test/CMakeFiles/hdr_atomic_test.dir/hdr_atomic_test.c.o: C_COMPILER__hdr_atomic_test_Release /home/micron/YCSB-cpp/HdrHistogram_c/test/hdr_atomic_test.c || cmake_object_order_depends_target_hdr_atomic_test
   DEFINES = -D_GNU_SOURCE
   DEP_FILE = HdrHistogram_c/test/CMakeFiles/hdr_atomic_test.dir/hdr_atomic_test.c.o.d
-  FLAGS = -O3 -DNDEBUG -Wall -Wno-unknown-pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
+  FLAGS = -O3 -DNDEBUG -Wall -Wno--pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
   INCLUDES = -I/home/micron/YCSB-cpp/HdrHistogram_c/src -I/home/micron/YCSB-cpp/HdrHistogram_c/include
   OBJECT_DIR = HdrHistogram_c/test/CMakeFiles/hdr_atomic_test.dir
   OBJECT_FILE_DIR = HdrHistogram_c/test/CMakeFiles/hdr_atomic_test.dir
@@ -1200,7 +1200,7 @@ build HdrHistogram_c/test/CMakeFiles/hdr_atomic_test.dir/hdr_atomic_test.c.o: C_
 build HdrHistogram_c/test/CMakeFiles/hdr_atomic_test.dir/minunit.c.o: C_COMPILER__hdr_atomic_test_Release /home/micron/YCSB-cpp/HdrHistogram_c/test/minunit.c || cmake_object_order_depends_target_hdr_atomic_test
   DEFINES = -D_GNU_SOURCE
   DEP_FILE = HdrHistogram_c/test/CMakeFiles/hdr_atomic_test.dir/minunit.c.o.d
-  FLAGS = -O3 -DNDEBUG -Wall -Wno-unknown-pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
+  FLAGS = -O3 -DNDEBUG -Wall -Wno--pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
   INCLUDES = -I/home/micron/YCSB-cpp/HdrHistogram_c/src -I/home/micron/YCSB-cpp/HdrHistogram_c/include
   OBJECT_DIR = HdrHistogram_c/test/CMakeFiles/hdr_atomic_test.dir
   OBJECT_FILE_DIR = HdrHistogram_c/test/CMakeFiles/hdr_atomic_test.dir
@@ -1234,7 +1234,7 @@ build cmake_object_order_depends_target_hdr_histogram_atomic_concurrency_test: p
 build HdrHistogram_c/test/CMakeFiles/hdr_histogram_atomic_concurrency_test.dir/hdr_histogram_atomic_concurrency_test.c.o: C_COMPILER__hdr_histogram_atomic_concurrency_test_Release /home/micron/YCSB-cpp/HdrHistogram_c/test/hdr_histogram_atomic_concurrency_test.c || cmake_object_order_depends_target_hdr_histogram_atomic_concurrency_test
   DEFINES = -D_GNU_SOURCE
   DEP_FILE = HdrHistogram_c/test/CMakeFiles/hdr_histogram_atomic_concurrency_test.dir/hdr_histogram_atomic_concurrency_test.c.o.d
-  FLAGS = -O3 -DNDEBUG -Wall -Wno-unknown-pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
+  FLAGS = -O3 -DNDEBUG -Wall -Wno--pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
   INCLUDES = -I/home/micron/YCSB-cpp/HdrHistogram_c/src -I/home/micron/YCSB-cpp/HdrHistogram_c/include
   OBJECT_DIR = HdrHistogram_c/test/CMakeFiles/hdr_histogram_atomic_concurrency_test.dir
   OBJECT_FILE_DIR = HdrHistogram_c/test/CMakeFiles/hdr_histogram_atomic_concurrency_test.dir
@@ -1242,7 +1242,7 @@ build HdrHistogram_c/test/CMakeFiles/hdr_histogram_atomic_concurrency_test.dir/h
 build HdrHistogram_c/test/CMakeFiles/hdr_histogram_atomic_concurrency_test.dir/minunit.c.o: C_COMPILER__hdr_histogram_atomic_concurrency_test_Release /home/micron/YCSB-cpp/HdrHistogram_c/test/minunit.c || cmake_object_order_depends_target_hdr_histogram_atomic_concurrency_test
   DEFINES = -D_GNU_SOURCE
   DEP_FILE = HdrHistogram_c/test/CMakeFiles/hdr_histogram_atomic_concurrency_test.dir/minunit.c.o.d
-  FLAGS = -O3 -DNDEBUG -Wall -Wno-unknown-pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
+  FLAGS = -O3 -DNDEBUG -Wall -Wno--pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
   INCLUDES = -I/home/micron/YCSB-cpp/HdrHistogram_c/src -I/home/micron/YCSB-cpp/HdrHistogram_c/include
   OBJECT_DIR = HdrHistogram_c/test/CMakeFiles/hdr_histogram_atomic_concurrency_test.dir
   OBJECT_FILE_DIR = HdrHistogram_c/test/CMakeFiles/hdr_histogram_atomic_concurrency_test.dir
@@ -1276,7 +1276,7 @@ build cmake_object_order_depends_target_hdr_histogram_perf: phony || cmake_objec
 build HdrHistogram_c/test/CMakeFiles/hdr_histogram_perf.dir/hdr_histogram_perf.c.o: C_COMPILER__hdr_histogram_perf_Release /home/micron/YCSB-cpp/HdrHistogram_c/test/hdr_histogram_perf.c || cmake_object_order_depends_target_hdr_histogram_perf
   DEFINES = -D_GNU_SOURCE
   DEP_FILE = HdrHistogram_c/test/CMakeFiles/hdr_histogram_perf.dir/hdr_histogram_perf.c.o.d
-  FLAGS = -O3 -DNDEBUG -Wall -Wno-unknown-pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
+  FLAGS = -O3 -DNDEBUG -Wall -Wno--pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
   INCLUDES = -I/home/micron/YCSB-cpp/HdrHistogram_c/src -I/home/micron/YCSB-cpp/HdrHistogram_c/include
   OBJECT_DIR = HdrHistogram_c/test/CMakeFiles/hdr_histogram_perf.dir
   OBJECT_FILE_DIR = HdrHistogram_c/test/CMakeFiles/hdr_histogram_perf.dir
@@ -1284,7 +1284,7 @@ build HdrHistogram_c/test/CMakeFiles/hdr_histogram_perf.dir/hdr_histogram_perf.c
 build HdrHistogram_c/test/CMakeFiles/hdr_histogram_perf.dir/minunit.c.o: C_COMPILER__hdr_histogram_perf_Release /home/micron/YCSB-cpp/HdrHistogram_c/test/minunit.c || cmake_object_order_depends_target_hdr_histogram_perf
   DEFINES = -D_GNU_SOURCE
   DEP_FILE = HdrHistogram_c/test/CMakeFiles/hdr_histogram_perf.dir/minunit.c.o.d
-  FLAGS = -O3 -DNDEBUG -Wall -Wno-unknown-pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
+  FLAGS = -O3 -DNDEBUG -Wall -Wno--pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
   INCLUDES = -I/home/micron/YCSB-cpp/HdrHistogram_c/src -I/home/micron/YCSB-cpp/HdrHistogram_c/include
   OBJECT_DIR = HdrHistogram_c/test/CMakeFiles/hdr_histogram_perf.dir
   OBJECT_FILE_DIR = HdrHistogram_c/test/CMakeFiles/hdr_histogram_perf.dir
@@ -1412,7 +1412,7 @@ build cmake_object_order_depends_target_hdr_decoder: phony || cmake_object_order
 build HdrHistogram_c/examples/CMakeFiles/hdr_decoder.dir/hdr_decoder.c.o: C_COMPILER__hdr_decoder_Release /home/micron/YCSB-cpp/HdrHistogram_c/examples/hdr_decoder.c || cmake_object_order_depends_target_hdr_decoder
   DEFINES = -D_GNU_SOURCE
   DEP_FILE = HdrHistogram_c/examples/CMakeFiles/hdr_decoder.dir/hdr_decoder.c.o.d
-  FLAGS = -O3 -DNDEBUG -Wall -Wno-unknown-pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
+  FLAGS = -O3 -DNDEBUG -Wall -Wno--pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
   INCLUDES = -I/home/micron/YCSB-cpp/HdrHistogram_c/include
   OBJECT_DIR = HdrHistogram_c/examples/CMakeFiles/hdr_decoder.dir
   OBJECT_FILE_DIR = HdrHistogram_c/examples/CMakeFiles/hdr_decoder.dir
@@ -1446,7 +1446,7 @@ build cmake_object_order_depends_target_hiccup: phony || cmake_object_order_depe
 build HdrHistogram_c/examples/CMakeFiles/hiccup.dir/hiccup.c.o: C_COMPILER__hiccup_Release /home/micron/YCSB-cpp/HdrHistogram_c/examples/hiccup.c || cmake_object_order_depends_target_hiccup
   DEFINES = -D_GNU_SOURCE
   DEP_FILE = HdrHistogram_c/examples/CMakeFiles/hiccup.dir/hiccup.c.o.d
-  FLAGS = -O3 -DNDEBUG -Wall -Wno-unknown-pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
+  FLAGS = -O3 -DNDEBUG -Wall -Wno--pragmas -Wextra -Wshadow -Winit-self -Wpedantic -Wmissing-prototypes -std=c99
   INCLUDES = -I/home/micron/YCSB-cpp/HdrHistogram_c/include
   OBJECT_DIR = HdrHistogram_c/examples/CMakeFiles/hiccup.dir
   OBJECT_FILE_DIR = HdrHistogram_c/examples/CMakeFiles/hiccup.dir

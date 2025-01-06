@@ -1,9 +1,11 @@
 #!/bin/bash
 
 FINISH_EZ=0
-FINISH_LZ=1
-NOFINISH_EZ=2
-NOFINISH_LZ=3
+NOFINISH_EZ=1
+NOFINISH_PRO_EZ=2
+FINISH_PRO_EZ=3
+FINISH_PRO_CB1_EZ=4
+FINISH_PRO_CB2_EZ=5
 
 OPTIONS=/home/jaewan/연구/YCSB-cpp/rocksdb/zlsm_motivation.ini
 #OPTIONS=/home/jaewan/연구/YCSB-cpp/rocksdb/zenfsoptions.ini
@@ -12,10 +14,10 @@ RESULT_DIR_PATH=/home/jaewan/연구/ATC_testdata/YCSB_zns/36GB
 
 DEV=nvme0n2
 
-#$NOFINISH_LZ $FINISH_LZ
-do
+# $NOFINISH_EZ $NOFINISH_PRO_EZ 
 
-for SCHEME in $FINISH_EZ  $NOFINISH_EZ 
+for SCHEME in $FINISH_EZ $FINISH_PRO_EZ $FINISH_PRO_CB1_EZ $FINISH_PRO_CB2_EZ
+do
     for i in tmp
     do
         for WORKLOAD_TYPE in uniform
@@ -25,25 +27,35 @@ for SCHEME in $FINISH_EZ  $NOFINISH_EZ
             echo "${MAX_NR_OPEN_IO_ZONES}" > /home/jaewan/연구/ATC_testdata/tmp/openzone_value
 
             if [ $SCHEME -eq $FINISH_EZ ]; then
-                RESULT_PATH=${RESULT_DIR_PATH}/${WORKLOAD_TYPE}_FINISH_EZ_${MAX_NR_OPEN_IO_ZONES}_${i}.txt
+                RESULT_PATH=${RESULT_DIR_PATH}/${WORKLOAD_TYPE}_FINISH_EZ${MAX_NR_OPEN_IO_ZONES}_${i}.txt
                 OPTIONS=/home/jaewan/연구/YCSB-cpp/rocksdb/zlsm_motivation.ini
                 sed -i "s/^  finish_scheme=.*/  finish_scheme=0/" $OPTIONS
                 sed -i "s/^  reset_scheme=.*/  reset_scheme=0/" $OPTIONS
-            # elif [ $SCHEME -eq $FINISH_LZ ]; then
-            #     RESULT_PATH=${RESULT_DIR_PATH}/${WORKLOAD_TYPE}_FINISH_LZ_${MAX_NR_OPEN_IO_ZONES}_${i}.txt
-            #     OPTIONS=/home/jaewan/연구/YCSB-cpp/rocksdb/zlsm_motivation.ini
-            #     sed -i "s/^  finish_scheme=.*/  finish_scheme=0/" $OPTIONS
-            #     sed -i "s/^  reset_scheme=.*/  reset_scheme=1/" $OPTIONS
             elif [ $SCHEME -eq $NOFINISH_EZ ]; then
-                RESULT_PATH=${RESULT_DIR_PATH}/${WORKLOAD_TYPE}_NOFINISH_EZ_${MAX_NR_OPEN_IO_ZONES}_${i}.txt
+                RESULT_PATH=${RESULT_DIR_PATH}/${WORKLOAD_TYPE}_NOFINISH_EZ${MAX_NR_OPEN_IO_ZONES}_${i}.txt
                 OPTIONS=/home/jaewan/연구/YCSB-cpp/rocksdb/zlsm_motivation.ini
                 sed -i "s/^  finish_scheme=.*/  finish_scheme=1/" $OPTIONS
                 sed -i "s/^  reset_scheme=.*/  reset_scheme=0/" $OPTIONS
-            # elif [ $SCHEME -eq $NOFINISH_LZ ]; then
-            #     RESULT_PATH=${RESULT_DIR_PATH}/${WORKLOAD_TYPE}_NOFINISH_LZ_${MAX_NR_OPEN_IO_ZONES}_${i}.txt
-            #     OPTIONS=/home/jaewan/연구/YCSB-cpp/rocksdb/zlsm_motivation.ini
-            #     sed -i "s/^  finish_scheme=.*/  finish_scheme=1/" $OPTIONS
-            #     sed -i "s/^  reset_scheme=.*/  reset_scheme=1/" $OPTIONS
+            elif [ $SCHEME -eq $NOFINISH_PRO_EZ ]; then
+                RESULT_PATH=${RESULT_DIR_PATH}/${WORKLOAD_TYPE}_NOFINISH_PRO_EZ${MAX_NR_OPEN_IO_ZONES}_${i}.txt
+                OPTIONS=/home/jaewan/연구/YCSB-cpp/rocksdb/zlsm_motivation.ini
+                sed -i "s/^  finish_scheme=.*/  finish_scheme=2/" $OPTIONS
+                sed -i "s/^  reset_scheme=.*/  reset_scheme=0/" $OPTIONS
+            elif [ $SCHEME -eq $FINISH_PRO_EZ ]; then
+                RESULT_PATH=${RESULT_DIR_PATH}/${WORKLOAD_TYPE}_FINISH_PRO_EZ${MAX_NR_OPEN_IO_ZONES}_${i}.txt
+                OPTIONS=/home/jaewan/연구/YCSB-cpp/rocksdb/zlsm_motivation.ini
+                sed -i "s/^  finish_scheme=.*/  finish_scheme=3/" $OPTIONS
+                sed -i "s/^  reset_scheme=.*/  reset_scheme=0/" $OPTIONS
+            elif [ $SCHEME -eq $FINISH_PRO_CB1_EZ ]; then
+                RESULT_PATH=${RESULT_DIR_PATH}/${WORKLOAD_TYPE}_FINISH_PRO_CB1_EZ${MAX_NR_OPEN_IO_ZONES}_${i}.txt
+                OPTIONS=/home/jaewan/연구/YCSB-cpp/rocksdb/zlsm_motivation.ini
+                sed -i "s/^  finish_scheme=.*/  finish_scheme=4/" $OPTIONS
+                sed -i "s/^  reset_scheme=.*/  reset_scheme=0/" $OPTIONS
+            elif [ $SCHEME -eq $FINISH_PRO_CB2_EZ ]; then
+                RESULT_PATH=${RESULT_DIR_PATH}/${WORKLOAD_TYPE}_FINISH_PRO_CB2_EZ${MAX_NR_OPEN_IO_ZONES}_${i}.txt
+                OPTIONS=/home/jaewan/연구/YCSB-cpp/rocksdb/zlsm_motivation.ini
+                sed -i "s/^  finish_scheme=.*/  finish_scheme=5/" $OPTIONS
+                sed -i "s/^  reset_scheme=.*/  reset_scheme=0/" $OPTIONS    
             else  
                 echo "error"
             fi
