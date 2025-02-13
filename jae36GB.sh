@@ -74,7 +74,7 @@ do
             --zbd=${DEV} --aux_path=/home/jaewan/연구/ATC_testdata/log > /home/jaewan/연구/ATC_testdata/tmp2
 
             echo ${RESULT_PATH}
-            sudo cp ${OPTIONS} /home/jaewan/연구/ATC_testdata/log/zenfsoptions.ini
+            sudo cp ${OPTIONS} /home/jaewan/연구/ATC_testdata/log/zlsm_motivation.ini
 
             sudo /home/jaewan/연구/YCSB-cpp/ycsb -load -db rocksdb -P workloads/workload_${WORKLOAD_TYPE} -P rocksdb/rocksdb.properties -s > ${RESULT_DIR_PATH}/tmp
             
